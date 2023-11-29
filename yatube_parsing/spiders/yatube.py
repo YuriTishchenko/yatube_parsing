@@ -7,9 +7,6 @@ class YatubeSpider(scrapy.Spider):
     start_urls = [" http://51.250.32.185/"]
 
     def parse(self, response):
-        print('|?||??|?|?|?|?|?|?|?|?|?|??||?')
-        print(len(response.css('div.container div.card-body')))
-        print('|?||??|?|?|?|?|?|?|?|?|?|??||?')
         for post in response.css('div.container div.card-body'):
             text = ' '.join(
                 t.strip() for t in post.css('p::text').getall()
