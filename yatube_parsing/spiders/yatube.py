@@ -2,6 +2,7 @@ import scrapy
 
 from yatube_parsing.items import YatubeParsingItem
 
+
 class YatubeSpider(scrapy.Spider):
     name = "yatube"
     allowed_domains = ["51.250.32.185"]
