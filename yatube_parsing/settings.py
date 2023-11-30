@@ -91,3 +91,16 @@ ROBOTSTXT_OBEY = True
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
+
+# FEEDS = {
+#     'groups.csv': {
+#         'format': 'csv',
+#         'fields': ['group_name', 'description', 'posts_count'],
+#         'overwrite': True
+#     },
+#     'groups.csv': {
+#         'format': 'csv',
+#         'fields': ['group_name', 'description', 'posts_count'],
+#         'overwrite': True
+#     },
+# }
